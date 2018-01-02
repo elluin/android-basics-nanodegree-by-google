@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MusicalStructure</string>
+    <string name="title_activity_playlist_album">PlaylistAlbumActivity</string>
+    <string name="now_playing">MainActivity - When you open the app the last played song appears.
+        This activity will handle the playing of song using Media Player.
+        If you tap the Search button you can search songs in Spotify, Search Activity will open.
+        By tapping the Equalizer button the Equalizer Activity will open, and you can modify the sound.
+        If you don\'t have any songs, you must to add songs by tapping the + button.
+        When you do so, a PlaylistAlbum Activity opens to add songs. In this new activity, you can scan your device for media files.</string>
+    <string name="info1">Song\'s title\nArtist - Album</string>
+    <string name="info2">Number of song, mode of play</string>
+    <string name="playlist_album">PlaylistAlbumActivity - On this screen you can see the albums.
+        It is implemented in a ListView. An ArrayAdapter is attached to the ListView.
+        A ListView element is the Artist\'s and the Album\'s name.
+        By tapping an album the Playlist Artist Activity will appear and you can choose the songs of artist.
+        But you can choose the full album too. Please tap the first item to try the link.</string>
+    <string name="album_list">Artist - Album</string>
+    <string name="artist_list">PlaylistArtistActivity - You can see the contents of album on this screen and you can choose the songs.
+        It is implemented in a ListView with ArrayAdapter as in the PlaylistAlbumActivity. </string>
+    <string name="search">SearchActivity - On this screen you can search for songs, artists or albums online through the Spotify website,
+        by using Spotify API. </string>
+    <string name="equalizer">EqualizerActivity - You can modify the sound here.
+    It uses the Android AudioEffects class to use the Equalizer.</string>
+</resources>

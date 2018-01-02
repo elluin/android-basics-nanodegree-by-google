@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common margin value used throughout the app -->
+    <dimen name="activity_margin">16dp</dimen>
+
+    <!-- Common padding value used around a list item -->
+    <dimen name="list_item_padding">8dp</dimen>
+
+    <!-- Layout width for list_item.xml's weighted items -->
+    <dimen name="layout_zero_width">0dp</dimen>
+
+    <!-- Height for leaf image logo -->
+    <dimen name="image_leaf_height">50dp</dimen>
+
+    <!-- Common padding value used around a empty view relative layout in activity catalog -->
+    <dimen name="empty_view_padding">16dp</dimen>
+
+    <!-- Top padding value used above the title of empty view -->
+    <dimen name="empty_title_text_padding">16dp</dimen>
+
+    <!-- Top padding value used above the title of empty view -->
+    <dimen name="buttons_margin">4dp</dimen>
+
+    <!-- Top padding value used above the subtitle of empty view -->
+    <dimen name="empty_subtitle_text_padding">8dp</dimen>
+
+    <!-- Left padding of euro in list item -->
+    <dimen name="padding_euro_list">4dp</dimen>
+
+    <!-- Margin around the floating action button in CatalogActivity -->
+    <dimen name="fab_margin">16dp</dimen>
+
+</resources>

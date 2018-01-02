@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CardioBox</string>
+    <string name="intro">We all hate it. No one looks forward to doing cardio. I have tried a lot of different Cardio exercise and I like boxing the most.</string>
+    <string name="head">Cardio Box</string>
+    <string name="subhead">Boxing for Health.</string>
+    <string name="address">Address:</string>
+    <string name="address_value">HU_Tata :: Talentum School</string>
+    <string name="phone">Phone:</string>
+    <string name="phone_value">+36 20 555 44 33</string>
+    <string name="fb">Facebook:</string>
+    <string name="fb_value">facebook.com/cardioboxtata</string>
+</resources>

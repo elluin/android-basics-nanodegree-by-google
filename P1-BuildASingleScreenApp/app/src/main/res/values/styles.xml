@@ -1,0 +1,83 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <!-- The head text on top of screen  -->
+    <style name="head">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/primary_light</item>
+        <item name="android:textSize">@dimen/head_text_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">@dimen/padding_left_and_right</item>
+    </style>
+
+    <!-- The subhead text bottom of head text -->
+    <style name="subhead">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/primary_light</item>
+        <item name="android:textSize">@dimen/subhead_text_size</item>
+        <item name="android:paddingLeft">@dimen/padding_left_and_right</item>
+        <item name="android:paddingRight">@dimen/padding_left_and_right</item>
+    </style>
+
+    <!-- The image of boxing girl -->
+    <style name="boxing_girl">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- The intro text bottom of boxing girl -->
+    <style name="intro">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/transparent_primary_dark</item>
+        <item name="android:textColor">@color/primary_light</item>
+        <item name="android:padding">@dimen/padding_left_and_right</item>
+        <item name="android:textSize">@dimen/intro_text_size</item>
+        <item name="android:layout_marginBottom">@dimen/intro_margin_bottom_and_top</item>
+        <item name="android:layout_marginTop">@dimen/intro_margin_bottom_and_top</item>
+        <item name="android:layout_marginLeft">@dimen/intro_margin_left_and_right</item>
+        <item name="android:layout_marginRight">@dimen/intro_margin_left_and_right</item>
+    </style>
+
+    <!-- Gray rectangle with data -->
+    <style name="grey_rectangle">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/grey_rectangle_padding</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">@dimen/grey_rectangle_margin_left_and_right</item>
+        <item name="android:layout_marginBottom">@dimen/grey_rectangle_margin_bottom</item>
+        <item name="android:background">@color/transparent_white</item>
+    </style>
+    <!-- The left colomn of grey rectangle -->
+    <style name="data_left_column">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">end</item>
+        <item name="android:textColor">@color/icons</item>
+        <item name="android:textSize">@dimen/data_text_size</item>
+    </style>
+    <!-- The right colomn of grey rectangle -->
+    <style name="data_right_column">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:textColor">@color/icons</item>
+        <item name="android:textSize">@dimen/data_text_size</item>
+        <item name="android:layout_marginLeft">@dimen/data_textviews_margin_left</item>
+    </style>
+
+</resources>

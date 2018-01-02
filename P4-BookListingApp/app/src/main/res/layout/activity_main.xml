@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 The Android Open Source Project -->
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Layout for search field -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_padding"
+        android:paddingRight="@dimen/activity_horizontal_padding"
+        android:paddingTop="@dimen/padding_normal">
+
+        <EditText
+            android:id="@+id/edittext_search"
+            style="@style/edittext_style"
+            android:layout_toLeftOf="@+id/button_search"
+            android:hint="@string/search_hint" />
+
+        <ImageButton
+            android:id="@id/button_search"
+            style="@style/button_search_style"
+            android:onClick="onClickSearch"
+            android:src="@drawable/ic_search_black_24dp" />
+
+    </RelativeLayout>
+
+    <!-- Layout for a list of books -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/list"
+            style="@style/list_style" />
+
+        <!-- Message view is only visible when the list has no items. -->
+        <TextView
+            android:id="@+id/textview_message"
+            style="@style/textview_message_style"
+            android:text="@string/search_result" />
+
+        <!-- Loading indicator for user feedback -->
+        <ProgressBar
+            android:id="@+id/progressbar_loading_indicator"
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+</LinearLayout>

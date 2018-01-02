@@ -1,0 +1,126 @@
+<resources>
+
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Tour Guide Tata</string>
+
+    <!-- Category name for attractions [CHAR LIMIT=20] -->
+    <string name="category_attractions">Attractions</string>
+
+    <!-- Category name for museums [CHAR LIMIT=20] -->
+    <string name="category_museums">Museums</string>
+
+    <!-- Category name for events [CHAR LIMIT=20] -->
+    <string name="category_events">Events</string>
+
+    <!-- Category name for useful things [CHAR LIMIT=20] -->
+    <string name="category_useful">Useful</string>
+
+    <!-- Attractions' list [CHAR LIMIT=20] -->
+    <string name="old_lake">Old Lake</string>
+    <string name="old_lake_location">The city lies around it.</string>
+    <string name="old_lake_open">Nonstop</string>
+
+    <string name="cseke_lake">Cseke Lake</string>
+    <string name="cseke_lake_location">North of the Old Lake.</string>
+    <string name="cseke_lake_open">Nonstop</string>
+
+    <string name="clocktower">Clock Tower</string>
+    <string name="clocktower_location">Orszaggyules sqare</string>
+    <string name="clocktower_open">Nonstop</string>
+
+    <string name="ruins">Artificial ruins</string>
+    <string name="ruins_location">On the bank of Lake Cseke</string>
+    <string name="ruins_open">Nonstop</string>
+
+    <string name="calvary">Calvary</string>
+    <string name="calvary_location">Near the Street Kocsi</string>
+    <string name="calvary_open">Nonstop</string>
+
+    <string name="derito_lake">Derito Lake</string>
+    <string name="derito_lake_location">East of the city.</string>
+    <string name="derito_lake_open">Nonstop</string>
+
+    <string name="fenyes_trail">Fenyes Natural Trail</string>
+    <string name="fenyes_trail_location">Fenyes Allay</string>
+    <string name="fenyes_trail_open">Nonstop</string>
+
+    <!-- Museums' list [CHAR LIMIT=20] -->
+    <string name="domonkos_kuny">Domonkos Kuny Muzeum</string>
+    <string name="domonkos_kuny_location">Near the Lake Old</string>
+    <string name="domonkos_kuny_open">Open: Th-Su 10:00-18:00</string>
+
+    <string name="ungarndeutsches">Ungarndeutsches Museum</string>
+    <string name="ungarndeutsches_location">Alkotmány str. 1.</string>
+    <string name="ungarndeutsches_open">Open: Th-Sa 10:00-18:00</string>
+
+    <string name="sculpture">Sculpture Replika Museum</string>
+    <string name="sculpture_location">Hosok square 7.</string>
+    <string name="sculpture_open">Open: Th-Sa 10:00-18:00</string>
+
+    <string name="geological_garden">Geological Garden</string>
+    <string name="geological_garden_location">Fekete str. 2.</string>
+    <string name="geological_garden_open">Open: Th-Su 10:00-17:00</string>
+
+    <string name="slaughter">Slaughter House</string>
+    <string name="slaughter_location">Topart str. 25.</string>
+    <string name="slaughter_open">Open: Sa-Su 10:00-18:00</string>
+
+    <string name="little_castle">Little Castle</string>
+    <string name="little_castle_location">English Park</string>
+    <string name="little_castle_open">Open: Based on consultation</string>
+
+    <!-- Events' list [CHAR LIMIT=20] -->
+    <string name="horse_show">Horse Show</string>
+    <string name="horse_show_location">Kastely square</string>
+    <string name="horse_show_open">29-30. April</string>
+
+    <string name="tata_crowd">Tata Crowd</string>
+    <string name="tata_crowd_location">Orszaggyules square</string>
+    <string name="tata_crowd_open">13-14. May</string>
+
+    <string name="patara">Patara</string>
+    <string name="patara_location">At the Castle</string>
+    <string name="patara_open">27-28. May</string>
+
+    <string name="water_fest">Water, Music, Flower Fest</string>
+    <string name="water_fest_location">At the Castle</string>
+    <string name="water_fest_open">23-24-25 Juni</string>
+
+    <string name="grease_musical">Grease Musical</string>
+    <string name="grease_musical_location">Openair Stage at Lake Cseke</string>
+    <string name="grease_musical_open">16. Juli, 20:00</string>
+
+    <string name="big_fishing">Big Fishing</string>
+    <string name="big_fishing_location">At the Castle</string>
+    <string name="big_fishing_open">21-22. October</string>
+
+    <string name="goose_fest">Goose Fest</string>
+    <string name="goose_fest_location">Topart str.</string>
+    <string name="goose_fest_open">25. November</string>
+
+    <!-- Usefuls' list [CHAR LIMIT=20] -->
+    <string name="post_office">Post Office</string>
+    <string name="post_office_location">Kossuth square 2.</string>
+    <string name="post_office_open">Open: Mo-Fr 8:00.18:00 Sa 8:00-11:00</string>
+
+    <string name="hospital">Hospital</string>
+    <string name="hospital_location">Hosok square 2.</string>
+    <string name="hospital_open">Open: Mo-Fr 7:00-16:00</string>
+
+    <string name="police">Police</string>
+    <string name="police_location">Ady str. 62.</string>
+    <string name="police_open">Nonstop</string>
+
+    <string name="angyal_pharmacy">Angyal Pharmacy</string>
+    <string name="angyal_pharmacy_location">Mikovenyi str. 23.</string>
+    <string name="angyal_pharmacy_open">Open: Mo-Su 8:00-20:00</string>
+
+    <string name="nonstop_market">Nonstop Market</string>
+    <string name="nonstop_market_location">Ady str. 88.</string>
+    <string name="nonstop_market_open">Open: 00:00-24:00</string>
+
+    <string name="bus_terminal">Bus Terminal</string>
+    <string name="bus_terminal_location">Majus 1. str. 12.</string>
+    <string name="bus_terminal_open">Nonstop</string>
+
+</resources>

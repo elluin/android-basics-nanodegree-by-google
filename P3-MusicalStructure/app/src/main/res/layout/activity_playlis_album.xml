@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_dark"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructure.PlaylisAlbumActivity">
+
+    <include layout="@layout/toolbar_layout" />
+
+    <TextView
+        style="@style/description_text"
+        android:text="@string/playlist_album" />
+
+    <TextView
+        android:id="@+id/album_list_item"
+        style="@style/album_song_list"
+        android:text="@string/album_list"/>
+
+    <TextView
+        style="@style/album_song_list"
+        android:text="@string/album_list"/>
+
+    <TextView
+        style="@style/album_song_list"
+        android:text="@string/album_list"/>
+
+    <TextView
+        style="@style/album_song_list"
+        android:text="@string/album_list"/>
+
+    <TextView
+        style="@style/album_song_list"
+        android:text="@string/album_list"/>
+
+    <TextView
+        style="@style/album_song_list"
+        android:text="@string/album_list"/>
+
+    <TextView
+        style="@style/album_song_list"
+        android:text="@string/album_list"/>
+
+    <TextView
+        style="@style/album_song_list"
+        android:text="@string/album_list"/>
+
+    <TextView
+        style="@style/album_song_list"
+        android:text="@string/album_list"/>
+
+    <TextView
+        style="@style/album_song_list"
+        android:text="@string/album_list"/>
+
+    <TextView
+        style="@style/album_song_list"
+        android:text="@string/album_list"/>
+
+    <TextView
+        style="@style/album_song_list"
+        android:text="@string/album_list"/>
+
+
+
+
+</LinearLayout>

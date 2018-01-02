@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context="com.example.android.cardiobox.MainActivity">
+
+    <!-- heading ................................................... -->
+    <TextView
+        style="@style/head"
+        android:text="@string/head" />
+
+    <TextView
+        style="@style/subhead"
+        android:text="@string/subhead" />
+
+    <!-- the boxing girl image .................................... -->
+    <ImageView
+        style="@style/boxing_girl"
+        android:src="@drawable/box" />
+
+    <!-- intro .................................................... -->
+    <TextView
+        style="@style/intro"
+        android:text="@string/intro" />
+
+    <!-- address .................................................. -->
+    <LinearLayout style="@style/grey_rectangle">
+
+        <TextView
+            style="@style/data_left_column"
+            android:text="@string/address" />
+
+        <TextView
+            style="@style/data_right_column"
+            android:text="@string/address_value" />
+
+    </LinearLayout>
+
+    <!-- phone .................................................... -->
+    <LinearLayout style="@style/grey_rectangle">
+
+        <TextView
+            style="@style/data_left_column"
+            android:text="@string/phone" />
+
+        <TextView
+            style="@style/data_right_column"
+            android:text="@string/phone_value" />
+
+    </LinearLayout>
+
+    <!-- facebook ................................................. -->
+    <LinearLayout style="@style/grey_rectangle">
+
+        <TextView
+            style="@style/data_left_column"
+            android:text="@string/fb" />
+
+        <TextView
+            style="@style/data_right_column"
+            android:text="@string/fb_value" />
+
+    </LinearLayout>
+
+</LinearLayout>

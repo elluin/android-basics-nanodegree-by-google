@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swiperefreshlayout_news"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Layout for a list of articles -->
+        <ListView
+            android:id="@+id/list"
+            style="@style/list_style"/>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <!-- Message view is only visible when the list has no items. -->
+    <TextView
+        android:id="@+id/textview_message"
+        style="@style/textview_message_style"/>
+
+    <!-- Loading indicator for user feedback -->
+    <ProgressBar
+        android:id="@+id/progressbar_loading_indicator"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

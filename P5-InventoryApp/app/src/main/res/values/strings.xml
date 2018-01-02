@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Inventory for Natural Cosmetics</string>
+
+    <!-- Texts in list -->
+    <string name="button_sale">Sale</string>
+    <string name="textview_available">available</string>
+    <string name="textview_euro">euro</string>
+    <string name="button_decrease">-</string>
+    <string name="button_increase">+</string>
+    <string name="button_order">ORDER</string>
+    <string name="empty_view_title_text">Natural Cosmetics Inventory is empty.</string>
+    <string name="empty_view_subtitle_text">Get started by adding product.</string>
+
+    <!-- Label for overflow menu option that deletes all products data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Products</string>
+
+    <!-- Label for editor menu option to save products and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current product [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+
+    <!-- Texts in EditorActivity.java -->
+    <string name="editor_insert_success">Product successfully saved.</string>
+    <string name="editor_insert_failed">Cannot save the product.</string>
+    <string name="editor_update_success">Product successfully updated.</string>
+    <string name="editor_update_failed">Cannot update the product.</string>
+    <string name="editor_delete_success">Product successfully deleted.</string>
+    <string name="editor_delete_failed">Cannot delete the product.</string>
+    <string name="editor_error_blank">All fields are required</string>
+    <string name="message_unsaved_changes_dialog">Discard your changes and quit editing?</string>
+    <string name="option_discard">Discard</string>
+    <string name="option_keep_editing">Keep editing</string>
+    <string name="message_delete_dialog">Delete this product?</string>
+    <string name="option_delete">Delete</string>
+    <string name="option_cancel">Cancel</string>
+    <string name="error_no_email_client">Email client needed.</string>
+    <string name="error_no_email">Install email app.</string>
+    <string name="email_subject">Product order</string>
+    <string name="email_message_before_product">Dear Supplier!\nWe would like to order followind product:\n</string>
+    <string name="email_message_after_product">\nThank you!\nYours sincerely,\nVeronika B.</string>
+
+    <!-- Title for screen in the editor [CHAR LIMIT=30] -->
+    <string name="title_product_details">Product details</string>
+
+    <!-- Label for name in the editor [CHAR LIMIT=30] -->
+    <string name="category_name">Name:</string>
+
+    <!-- Label for price information in the editor [CHAR LIMIT=30] -->
+    <string name="category_price">Price:</string>
+
+    <!-- Label for unit information in the editor [CHAR LIMIT=30] -->
+    <string name="category_unit">Unit:</string>
+
+    <!-- Title for unit in the editor [CHAR LIMIT=30] -->
+    <string name="category_title_unit">unit</string>
+
+    <!-- Title for price in the editor [CHAR LIMIT=30] -->
+    <string name="category_title_euro">euro</string>
+
+    <!-- Label for quantity information in the editor [CHAR LIMIT=30] -->
+    <string name="category_quantity">Quantity:</string>
+
+    <!-- Label for quantity information in the editor [CHAR LIMIT=30] -->
+    <string name="category_supplier">Supplier:</string>
+
+    <!-- Message for empty stock [CHAR LIMIT=30] -->
+    <string name="message_empty_stock">Empty stock.</string>
+
+    <!-- Message for update error [CHAR LIMIT=30] -->
+    <string name="message_update_error">Error in updating.</string>
+
+    <!-- Title for the activity to add a new product [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_product">Add a Product</string>
+
+    <!-- Title for the activity to edit an existing product [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_product">Edit Product</string>
+
+</resources>

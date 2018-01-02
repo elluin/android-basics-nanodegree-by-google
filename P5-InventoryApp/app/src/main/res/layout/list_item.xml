@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout for a single list item in the list of cosmetics -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/list_item_padding">
+
+    <!-- The leaf logo -->
+    <ImageView
+        style="@style/style_leaf_logo"
+        android:src="@drawable/leaf" />
+
+    <!-- The layout for the 3 texviews: name, price, quantity -->
+    <LinearLayout
+        android:layout_width="@dimen/layout_zero_width"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <!-- The name of the product -->
+        <TextView
+            android:id="@+id/name"
+            style="@style/style_product_name" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/price"
+                style="@style/style_product_price" />
+
+            <TextView
+                style="@style/style_euro_listitem"
+                android:text="@string/textview_euro" />
+
+            <TextView
+                style="@style/style_slash_list_item"
+                android:text="/" />
+
+            <!-- The quantity of the product -->
+            <TextView
+                android:id="@+id/quantity"
+                style="@style/style_quantity_list_item" />
+
+            <TextView
+                style="@style/style_available_listitem"
+                android:text="@string/textview_available" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!-- The sale button -->
+    <Button
+        android:id="@+id/button_sale"
+        style="@style/style_button_sale"
+        android:onClick="saleProduct"
+        android:text="@string/button_sale" />
+
+</LinearLayout>

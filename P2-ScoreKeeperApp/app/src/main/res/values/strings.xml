@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Quidditch World Cup</string>
+    <string name="gryffindor">Gryffindor</string>
+    <string name="ravenclaw">Ravenclaw</string>
+    <string name="reset">Reset</string>
+
+</resources>

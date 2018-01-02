@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#891933"
+    tools:context=".MainActivity">>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- logo.........................................................-->
+        <ImageView
+            android:id="@+id/imageLogo"
+            style="@style/style_image_logo"
+            android:src="@drawable/logo3" />
+
+        <!-- horizontal rule..............................................-->
+        <LinearLayout
+            android:id="@+id/hrule"
+            style="@style/style_hrule"></LinearLayout>
+
+        <!-- CONTAINER Griffindor + Ravenclaw ...........................-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <!-- Griffindor .............................................-->
+            <LinearLayout
+                android:id="@+id/llGriffindor"
+                style="@style/style_ll_griffindor">
+
+                <TextView
+                    style="@style/style_textview_griffindor"
+                    android:text="@string/gryffindor" />
+
+                <TextView
+                    android:id="@+id/gryffindor_score"
+                    style="@style/style_textview_gryffindor_score"
+                    android:text="0" />
+
+                <ImageButton
+                    android:id="@+id/gryffindorQuaffle"
+                    style="@style/style_imagebutton_gryffindorQuaffle"
+                    android:onClick="add10forGryffindor"
+                    android:src="@drawable/quaffle" />
+
+                <ImageButton
+                    android:id="@+id/gryffindorSnitch"
+                    style="@style/style_image_button_gryffindorSnitch"
+                    android:onClick="add250forGryffindor"
+                    android:src="@drawable/snitchtrans" />
+
+            </LinearLayout>
+            <!-- vertical rule / nimbus2000 ...........................-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/divider_nimbus_margin"
+                    android:src="@drawable/nimbus2000trans" />
+
+            </LinearLayout>
+            <!-- Ravenclaw .............................................-->
+            <LinearLayout
+                android:id="@+id/llRavenclaw"
+                style="@style/style_ll_rawenclaw">
+
+                <TextView
+                    style="@style/style_textview_ravenclaw"
+                    android:text="@string/ravenclaw" />
+
+                <TextView
+                    android:id="@+id/ravenclaw_score"
+                    style="@style/style_textview_ravenclaw_score"
+                    android:text="0" />
+
+                <ImageButton
+                    android:id="@+id/ravclavQuaffle"
+                    style="@style/style_imagebutton_ravclavQuaffle"
+                    android:onClick="add10forRavenclaw"
+                    android:src="@drawable/quaffle" />
+
+                <ImageButton
+                    android:id="@+id/ravclavSnitch"
+                    style="@style/style_imagebutton_ravclavSnitch"
+                    android:onClick="add250forRavenclaw"
+                    android:src="@drawable/snitchtrans" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/reset"
+            style="@style/style_button_reset"
+            android:onClick="reset"
+            android:text="Reset" />
+
+    </LinearLayout>
+</ScrollView>

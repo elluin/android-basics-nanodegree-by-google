@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout for the list of product -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CatalogActivity">
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Empty view -->
+    <RelativeLayout
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="@dimen/empty_view_padding">
+
+        <!-- This image appearances when the list empty-->
+        <ImageView
+            android:id="@+id/empty_list_image"
+            style="@style/style_empty_list_image"
+            android:src="@drawable/naturalcosmetics_intro" />
+
+        <!-- This title appearances when the list empty-->
+        <TextView
+            android:id="@+id/empty_title_text"
+            style="@style/style_empty_title_text"
+            android:text="@string/empty_view_title_text" />
+
+        <!-- This subtitle appearances when the list empty-->
+        <TextView
+            android:id="@+id/empty_subtitle_text"
+            style="@style/style_empty_subtitle_text"
+            android:text="@string/empty_view_subtitle_text" />
+
+    </RelativeLayout>
+
+    <!-- Add new button product -->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_add"
+        style="@style/style_fab_add"
+        android:src="@drawable/ic_leaf_wht" />
+
+</RelativeLayout>

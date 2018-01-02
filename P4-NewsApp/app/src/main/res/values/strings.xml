@@ -1,0 +1,25 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">The Guardian News</string>
+
+    <!-- The URL of Guardian, from here we get the datas [CHAR LIMIT=20] -->
+    <string name="guardian_url" translatable="false">http://content.guardianapis.com/search?q=debates<xliff:g example="android" id="search_term">%s</xliff:g>&amp;show-fields=thumbnail&amp;api-key=test</string>
+
+    <!-- This appears if no title available [CHAR LIMIT=20]-->
+    <string name="unknown_title">Title N/A</string>
+
+    <!-- This appears if no publication date available [CHAR LIMIT=20]-->
+    <string name="unknown_publicationdate">Date N/A</string>
+
+    <!-- This appears if no section name available [CHAR LIMIT=20]-->
+    <string name="unknown_sectionname">No section</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=20] -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <!-- Text to display in the list when there are no books [CHAR LIMIT=20] -->
+    <string name="no_news">No news available.</string>
+
+    <!-- Text to display in the list when there are no internet browser [CHAR LIMIT=20] -->
+    <string name="no_browser">No internet browser available.</string>
+
+</resources>

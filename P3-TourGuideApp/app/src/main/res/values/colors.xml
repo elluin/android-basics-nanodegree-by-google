@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#1976D2</color>
+
+    <!-- Primary dark color of the app -->
+    <color name="primary_dark_color">#2F1D1A</color>
+
+    <!-- Background color for the all category -->
+    <color name="categories">#FFFFFF</color>
+
+    <!-- Text color for the item name -->
+    <color name="primary_text">#212121</color>
+
+    <!-- Text color for the item's details. -->
+    <color name="secondary_text">#757575</color>
+</resources>

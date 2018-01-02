@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 The Android Open Source Project -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Title for the application. [CHAR LIMIT=20] -->
+    <string name="app_name">Google Book Listing</string>
+
+    <!-- Text to display in the list when there are no books [CHAR LIMIT=20] -->
+    <string name="no_books">No books.</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=20] -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+<!-- Search result field text [CHAR LIMIT=20]-->
+    <string name="search_result">Search</string>
+
+<!-- This appears if no title available [CHAR LIMIT=20]-->
+    <string name="unknown_title">Title N/A</string>
+
+    <!-- This appears if no subtitle available [CHAR LIMIT=20]-->
+    <string name="unknown_subtitle">Subtitle N/A</string>
+
+    <!-- This appears if no author available [CHAR LIMIT=20]-->
+    <string name="unknown_author">Author N/A</string>
+
+    <!-- The default text in search field [CHAR LIMIT=20] -->
+    <string name="search_hint">Enter a search keyword...</string>
+
+    <!-- Error message when the search field was empty and search button was pressed [CHAR LIMIT=20] -->
+    <string name="error_enter_search_term">Enter a search keyword first.</string>
+
+    <!-- Error message when there is no result with search term [CHAR LIMIT=20] -->
+    <string name="no_result">No result.\nTry again!.</string>
+
+    <!-- The URL of Google, from here we get the datas [CHAR LIMIT=20] -->
+    <string name="google_url" translatable="false">https://www.googleapis.com/books/v1/volumes?q=<xliff:g example="android" id="search_term">%s</xliff:g>&amp;maxResults=25</string>
+
+</resources>

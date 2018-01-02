@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/list_item_margin"
+    android:paddingLeft="@dimen/activity_horizontal_padding"
+    android:paddingRight="@dimen/activity_horizontal_padding"
+    android:paddingTop="@dimen/list_item_margin">
+
+    <ImageView
+        android:id="@+id/imageview_book_thumbnail"
+        style="@style/thumbnail_style"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview_title"
+            style="@style/title_style"
+            tools:text="Title" />
+
+        <TextView
+            android:id="@+id/textview_authors"
+            style="@style/author_and_subtitle_style"
+            tools:text="Authors" />
+
+        <TextView
+            android:id="@+id/textview_subtitle"
+            style="@style/author_and_subtitle_style"
+            tools:text="Publishing Date" />
+
+    </LinearLayout>
+
+</LinearLayout>

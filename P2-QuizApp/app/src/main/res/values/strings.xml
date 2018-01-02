@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="cim">Computer Network Quiz</string>
+
+    <!-- Question's number -->
+    <string name="q1">Question 1</string>
+    <string name="q2">Question 2</string>
+    <string name="q3">Question 3</string>
+    <string name="q4">Question 4</string>
+    <string name="q5">Question 5</string>
+    <string name="q6">Question 6</string>
+    <string name="q7">Question 7</string>
+    <string name="q8">Question 8</string>
+    <string name="q9">Question 9</string>
+    <string name="q10">Question 10</string>
+    <string name="intro">Please fill in the test! The correct answer gets 1 point, but the wrong answer -0.5 points.</string>
+
+    <!-- Question's texts -->
+    <string name="q1q">A private connection of LANs and WANs that belongs to an organization, and is designed to be accessible only by the organizations members and employees.</string>
+    <string name="q2q">What is Podcasting?</string>
+    <string name="q3q">Whitch statements are true?</string>
+    <string name="q4q">What devices are shown in the picture?</string>
+    <string name="q5q">An acronym: end users are able to use their own devices to access the corporate network and resources.</string>
+    <string name="q6q">Which type of connection uses a phone line to connect to the internet?</string>
+    <string name="q7q">What does it mean: QoS?</string>
+    <string name="q8q">What ?</string>
+
+    <!-- Question's answers -->
+    <!-- Question 2 answers -->
+    <string name="a2a">Allows people to deliver their recordings to a wide audience.</string>
+    <string name="a2b">Allows people to share files with each other without having to store and download them from a central server.</string>
+    <string name="a2c">Web pages that groups of people can edit and view together.</string>
+    <string name="a2d">Give anyone a means to communicate their thoughts to a global audience without technical knowledge of web design. </string>
+    <string name="a2e">Where people and communities create and share user-generated content with friends.</string>
+    <!-- Question 3 answers -->
+    <string name="a3a">LAN is a network infrastructure that provides access to users and end devices in a small geographical area.</string>
+    <string name="a3b">WAN is similar to a LAN but wirelessly interconnects users and end points in a small geographical area.</string>
+    <string name="a3c">SAN is a network infrastructure designed to support file servers and provide data storage.</string>
+    <string name="a3d">MAN is a network infrastructure that spans a physical area smaller than a LAN but larger than a WAN.</string>
+    <!-- Question 4 answers -->
+    <string name="a4a">Intermediary Devices</string>
+    <string name="a4b">End Devices</string>
+    <string name="a4c">Internetworking Devices</string>
+    <string name="a4d">Media and services</string>
+    <!-- Question 6 answers -->
+    <string name="a6a">Cable</string>
+    <string name="a6b">Satellite</string>
+    <string name="a6c">DSL</string>
+    <string name="a6d">Dial-Up</string>
+    <!-- Question 7 answers -->
+    <string name="a7a">Redundant connections allow for alternative path if a device or a link fails.</string>
+    <string name="a7b">Additional users and whole networks can be connected to the Internet without degrading performance for existing users.</string>
+    <string name="a7c">Administrators can protect the network with software and hardware security and by preventing physical access to network devices.</string>
+    <string name="a7d">It ensures that priorities are matched with the type of communication and its importance to the organization.</string>
+    <!-- Buttons -->
+    <string name="submit">Submit Quiz</string>
+    <string name="reset">Reset Answers</string>
+
+</resources>
