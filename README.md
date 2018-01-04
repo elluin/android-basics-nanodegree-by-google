@@ -24,7 +24,10 @@ This project contains only a java class. No screenshot.
 <img src="https://user-images.githubusercontent.com/35014751/34544476-d1f9652c-f0e6-11e7-8304-144ef55af876.png" width=250>
 <h2>Part 4 User Networking</h2>
 <h3>Project 7: Book Listing App</h3>
-<img src="" width=250>
+<div>
+<img src="https://user-images.githubusercontent.com/35014751/34545338-a51380fa-f0ec-11e7-81f5-a47cd45f2b78.png" width=250>
+<img src="https://user-images.githubusercontent.com/35014751/34545347-b4374cba-f0ec-11e7-92e6-fbc591315b75.png" width=250>
+</div>
 <h3>Project 8: News App</h3>
 <img src="https://user-images.githubusercontent.com/35014751/34544480-d55fc846-f0e6-11e7-9ef1-b25038007444.png" width=250>
 <h2>Part 5 Data Storage</h2>
